@@ -37,6 +37,33 @@
             </p>
 
         </fieldset>
+        <fieldset>
+            <legend> Edereço </legend>
+            <p>
+                <label for="rua"> rua: </label>
+                <input type="text" id="rua" placeholder="Digite o nome da rua" maxlength="200">
+            </p>
+            <p>
+                <label for="numero">Numero:</label>
+                <input type="Number" id="numero" min="0" max="99999">
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <optgroup label="região sudeste">
+                        <option value="RJ"> Rio de Janeiro</option>
+                        <option value="SP"> São Paulo</option>
+                        <option value="MG"> Minas Gerais</option>
+                        <option value="ES"> Espirito Santos</option>
+                    </optgroup>
+                    <optgroup label="Resgião Sul">
+                        <option value="PR"> Paraná</option>
+                        <option value="SC"> Santa Catarina</option>
+                        <option value="RS"> Rio grande do Sul</option>
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
